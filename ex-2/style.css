@@ -1,1 +1,29 @@
-/* Start coding here */
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    background-color: khaki;
+    border: 16px solid crimson; /* กรอบชั้นที่ 3 (แดงเข้ม) */
+    box-shadow:
+      0 0 0 16px black,  /* กรอบชั้นที่ 1 (เทาอ่อน) */
+      0 0 0 32px gray;      /* กรอบชั้นที่ 2 (ดำ) */
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .box h1 {
+    font-size: 72px;
+    color: black;
+    margin: 0px;
+  }

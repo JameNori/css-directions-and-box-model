@@ -1,1 +1,57 @@
-/* Start coding here */
+.header {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+body {
+    
+    margin: 40px;
+    background-color: white;
+    color: #333;
+  }
+  
+  /* หัวข้อหลัก */
+  h1 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+  }
+  
+  /* กรอบรูปภาพ */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px yellow(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  /* กล่องข่าวแบบบล็อก */
+  .blog-card {
+    border: 2px solid gray;
+    padding: 16px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px yellow(0, 0, 0, 0.05);
+  }
+  
+  /* หัวข้อข่าว */
+  .blog-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  /* ย่อหน้าในข่าว */
+  .blog-card p {
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: gray;
+  }
+  
