@@ -1,1 +1,41 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #92aabd;
+  color: #183b56;
+  padding: 20px;
+}
+
+h1 {
+  padding-left: 30px;
+}
+
+main {
+  /* display: flex;
+  flex-direction: column; 
+  gap: 50px; */
+  padding: 50px;
+}
+
+.blog-post {
+  border: 3px solid #183b56;
+  padding: 20px;
+  max-width: 550px;
+  background-color: #e4e9ed;
+  margin-bottom: 50px;
+}
+
+.blog-post img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
